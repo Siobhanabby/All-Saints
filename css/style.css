@@ -1,0 +1,52 @@
+/*------------------------ BODY ---------------------- */
+body { margin: 0px; /*------------------------ NAV BAR ---------------------- */ /*------------------------ WRAPPER ---------------------- */ }
+body #navbar { width: 100%; height: 60px; background-color: #212D44; position: fixed; z-index: 99; }
+body #navbar #logo { width: 50px; margin: 0px 10px; }
+body #navbar .icon { color: #FFFFFF; float: right; margin: 20px; padding: 0px 0px; }
+body #wrapper { margin: 0 auto; height: auto; overflow: hidden; /*------------------------ HEAD ---------------------- */ /*------------------------ IMAGES ---------------------- */ /*------------------------ CONTACT SECTION ---------------------- */ /*------------------------ FOOTER ---------------------- */ }
+body #wrapper #head { margin: 50px 0px 0px 0px; overflow: hidden; position: relative; /*------------------------ BACKGROUND IMG ---------------------- */ /*------------------------ TEXT ---------------------- */ /*------------------------ FIND MORE BOX ---------------------- */ /*------------------------ ARROWS ---------------------- */ }
+body #wrapper #head #header { width: 100%; margin: 0px; padding: 0px; position: relative; }
+body #wrapper #head #headtext { position: absolute; top: 60px; left: 20%; z-index: 8; color: #FFFFFF; font-family: "Sniglet"; font-size: 3.5vw; }
+@media (max-width: 768px) { body #wrapper #head #headtext { left: 12%; font-size: 4.5vw; } }
+body #wrapper #head #morebox { background-color: #005BC5; font-family: "Nova Mono"; width: 12%; height: 30px; color: #FFFFFF; padding: 5px 0px 0px 0px; position: absolute; top: 230px; left: 45%; z-index: 7; cursor: pointer; font-size: 1.2vw; }
+@media (max-width: 992px) { body #wrapper #head #morebox { top: 180px; } }
+@media (max-width: 768px) { body #wrapper #head #morebox { padding: 5px 0px 0px 0px; top: 160px; font-size: 3vw; width: 30%; height: 35px; left: 35%; } }
+body #wrapper #head #arrow { color: #FFFFFF; font-family: "Nova Mono"; position: absolute; top: 350px; left: 50%; z-index: 7; font-size: 3vw; }
+@media (max-width: 992px) { body #wrapper #head #arrow { top: 250px; } }
+@media (max-width: 768px) { body #wrapper #head #arrow { visibility: hidden; } }
+body #wrapper #head #left { color: #FFFFFF; font-family: "Nova Mono"; position: absolute; float: left; top: 250px; left: 20px; z-index: 7; font-size: 3vw; }
+@media (max-width: 992px) { body #wrapper #head #left { top: 200px; } }
+@media (max-width: 768px) { body #wrapper #head #left { visibility: hidden; } }
+body #wrapper #head #right { color: #FFFFFF; font-family: "Nova Mono"; position: absolute; float: right; top: 250px; right: 20px; z-index: 7; font-size: 3vw; }
+@media (max-width: 992px) { body #wrapper #head #right { top: 200px; } }
+@media (max-width: 768px) { body #wrapper #head #right { visibility: hidden; } }
+body #wrapper .imagesrow { /*------------------------ ROW 1 ---------------------- */ /*------------------------ ROW 2 ---------------------- */ }
+body #wrapper .imagesrow .imgbox { width: 109%; padding: 3px 0px 0px 0px; margin: 0px; cursor: pointer; display: inline-block; }
+@media (max-width: 768px) { body #wrapper .imagesrow .imgbox { width: 30%; page-break-after: avoid; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlepink { background-color: #D90F5A; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlepink { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlegreen { background-color: #0DE5A8; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlegreen { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlelblue { background-color: #30C4C9; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlelblue { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitleorg { background-color: #FF6E27; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitleorg { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitleyel { background-color: #FFB60B; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitleyel { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlepurp { background-color: #4F2958; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlepurp { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlenav { background-color: #212D44; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlenav { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper .imagesrow #imgtitlegr { background-color: #88C100; width: 109%; color: #FFFFFF; padding: 0px; margin: 0px; height: 60px; display: inline-block; text-align: center; padding: 20px; font-family: "Nova Mono"; }
+@media (max-width: 768px) { body #wrapper .imagesrow #imgtitlegr { margin-top: -100px; width: 68%; height: auto; display: inline-block; margin: 0px; } }
+body #wrapper #contact { background-color: black; display: inline-block; color: #FFFFFF; margin: 0px 0px; padding: 0px 10px; /*------------------------ MAP ---------------------- */ }
+body #wrapper #contact h1 { font-family: "Nova Mono"; font-size: 1.8em; margin: 20px 0px; }
+body #wrapper #contact h2 { font-family: "Nova Mono"; font-size: 1.1em; padding: 0px; margin: 3px 0px; }
+body #wrapper #contact #map { padding: 0px; margin: 0px; display: inline-block; }
+body #wrapper #footer { background-color: #005BC5; margin: 0px; color: #FFFFFF; padding: 5px 10px; /*------------------------ SOCIAL MEDIA ICONS ---------------------- */ /*------------------------ TEXT ---------------------- */ }
+@media (max-width: 768px) { body #wrapper #footer { height: 130px; text-align: center; } }
+body #wrapper #footer .social { color: #FFFFFF; margin: 8px; padding: 0px 0px; display: inline-block; }
+body #wrapper #footer .footertext { float: right; margin: 10px; padding: 0px 10px; font-family: "Sniglet"; font-size: 1em; }
+@media (max-width: 768px) { body #wrapper #footer .footertext { float: center; text-align: center; width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
